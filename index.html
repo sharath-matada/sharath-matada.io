@@ -22,7 +22,7 @@
                 <p class="name" style="text-align: center;">
                   Sharath Matada
                 </p>
-                <p>I'm a graduate student at UC San Diego, where I work with <a href="https://natanaso.github.io/">Prof. Nikolay Atanasov</a> at the <a href="http://erl.ucsd.edu/">Existensial Robotics Lab</a>. I'm currently working on Generalizable learning based planners using Neural Operators.   
+                <p>I'm a graduate student at UC San Diego, where I work with <a href="https://natanaso.github.io/">Prof. Nikolay Atanasov</a> at the <a href="http://erl.ucsd.edu/">Existensial Robotics Lab</a>. I'm currently working on Generalizable learning based planners based on the HJB Equation.   
                 </p>
                 <p>I previously worked at the <a href="https://www.ucsdarclab.com/">Advanced Robotics and Controls Lab</a> with <a href="https://yip.eng.ucsd.edu/">Prof. Michael Yip</a> with a focus on Model Predictive Control for highly dynamic motion for quadrupeds</p>
                 
@@ -30,7 +30,7 @@
                   My professional experience includes my work at <a href="http://www.systemantics.com/about/">Systemantics</a> as a Senior Robotics Engineer with a focus on design and controls for 6 DOF industrial arms. 
                   I was responsible for introducing collaborative features for safe human-robot interaction. I worked under the guidance of <a href="https://www.linkedin.com/in/jagannathraju/">Dr. Jagannath Raju</a>.
                 </p>
-                <p>I'm looking for opportunites in research related to robotics and machine learning roles post March 2024!</p>
+                <p>I'm looking for opportunites in research related to robotics and machine learning post March 2024!</p>
                 <p style="text-align:center">
                   <a href="mailto:sharath.matada@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="data/Resume_Sharath_Matada_Dec23.pdf">CV</a> &nbsp;/&nbsp;
@@ -57,21 +57,22 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src='gifs/value_function.gif' width=120%>
-        </div>
-        <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
-          }
-
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
-          }
-          smerf_stop()
-        </script>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <img src='gifs/value_function.gif' width="120%" style="display:block; margin-right:30px  ;">
+          <div id="smerf_image"></div>
+          <script type="text/javascript">
+              function smerf_start() {
+                  document.getElementById('smerf_image').style.opacity = "1";
+              }
+      
+              function smerf_stop() {
+                  document.getElementById('smerf_image').style.opacity = "0";
+              }
+              smerf_stop()
+          </script>
+          <p style="text-align:center; font-size:10px; margin-top:10px;">The method generates value function for changing environments with a fixed start positon and variable goal positions</p>
       </td>
+          
       <td style="padding:20px;width:75%;vertical-align:middle">
           <span class="papertitle">Value Iteration Neural Operators for Generalizable Planning</span>
         </a>
@@ -84,7 +85,7 @@
         <p></p>
         <p>
         Generalizable Neural Fields for Value Function capable of calculating value function for 
-        dynamic environments based on Hamiltonian-Jacobian-Bellman Equation without the need of retraining
+        dynamic environments based on Hamiltonian-Jacobi-Bellman Equation without the need of retraining
         </p>
       </td>
     </tr>
@@ -104,6 +105,7 @@
           }
           nuvo_stop()
         </script>
+        <p style="text-align:center; font-size:10px; margin-top:10px;">Simulation of reconstructed motion using Model Predictive Control</p>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://sites.google.com/ucsd.edu/robotmotionreconstruction/home">
