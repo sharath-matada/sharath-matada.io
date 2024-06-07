@@ -66,7 +66,7 @@
 
     <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src='gifs/go1robot.gif' width=100%>
+          <img src='gifs/reconstruction.gif' width=100%>
         </div>
         <script type="text/javascript">
           function nuvo_start() {
@@ -78,8 +78,23 @@
           }
           nuvo_stop()
         </script>
-        <p style="text-align:center; font-size:10px; margin-top:10px;">Simulation of reconstructed motion using Model Predictive Control</p>
-      </td>
+        <p style="text-align:center; font-size:10px; margin-top:10px;">Simulation of reconstructed motion of Manipulator</td>
+      <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src='gifs/go1robot.gif' width=100%>
+          </div>
+          <script type="text/javascript">
+            function nuvo_start() {
+              document.getElementById('nuvo_image').style.opacity = "1";
+            }
+  
+            function nuvo_stop() {
+              document.getElementById('nuvo_image').style.opacity = "0";
+            }
+            nuvo_stop()
+          </script>
+          <p style="text-align:center; font-size:10px; margin-top:10px;">Simulation of reconstructed motion of quadruped using Model Predictive Control</p>
+        </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://sites.google.com/ucsd.edu/robotmotionreconstruction/home">
           <span class="papertitle">Reconstruction of Robot Motion from Video</span>
@@ -92,7 +107,7 @@
         <a href="https://viterbi.usc.edu/directory/faculty/Nguyen/Quan">Quan Nguyen</a>,
         <a href="https://yip.eng.ucsd.edu/">Michael Yip</a>
         <br>
-        <em>In Preparation to be Submitted to <strong>Science Robotics</strong> by Jan, 2024</em>
+        <em>ISubmitted to <strong>Science Robotics</strong></em>
         <p>
         <a href="https://sites.google.com/ucsd.edu/robotmotionreconstruction/home">project page</a>
         </p>
