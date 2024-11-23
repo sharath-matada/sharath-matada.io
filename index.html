@@ -31,13 +31,12 @@
                 <p class="name" style="text-align: center;">
                   Sharath Matada
                 </p>
-                <p>I'm a graduate student at UC San Diego, where I work with <a href="https://natanaso.github.io/">Prof. Nikolay Atanasov</a> at the <a href="http://erl.ucsd.edu/">Existensial Robotics Lab</a>. I'm currently working on learning based planners and reconstruction of robot motion from video.   
+                <p>I'm senior engineer at Horizon Surgical Systems where I'm working on designing surgical robots for robotic opthalmic surgery.  I graduated from UC San Diego, where I worked with <a href="https://natanaso.github.io/">Prof. Nikolay Atanasov</a> at the <a href="http://erl.ucsd.edu/">Existensial Robotics Lab</a>. My researchwas focused on learning based planning.  
                 </p>                
                 <p>
                   My professional experience includes my work at <a href="http://www.systemantics.com/about/">Systemantics</a> as a Senior Robotics Engineer with a focus on design and controls for 6 DOF industrial arms. 
                   I was responsible for introducing collaborative features for safe human-robot interaction. I worked under the guidance of <a href="https://www.linkedin.com/in/jagannathraju/">Dr. Jagannath Raju</a>.
                 </p>
-                <p>I'm looking for opportunities in research related to robotics and machine learning post June 2024!</p>
                 <p style="text-align:center">
                   <a href="mailto:sharath.matada@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="data/Resume_Sharath_Matada_Jan24.pdf">CV</a> &nbsp;/&nbsp;
@@ -61,6 +60,42 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='gifs/maze_navigation.png' width=100%>
+            </div>
+            <script type="text/javascript">
+              function nuvo_start() {
+                document.getElementById('nuvo_image').style.opacity = "1";
+              }
+    
+              function nuvo_stop() {
+                document.getElementById('nuvo_image').style.opacity = "0";
+              }
+              nuvo_stop()
+            </script>
+            <p style="text-align:center; font-size:10px; margin-top:10px;">Planning using Neural Operators</td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://sites.google.com/ucsd.edu/robotmotionreconstruction/home">
+              <span class="papertitle">Reconstruction of Robot Motion from Video</span>
+            </a>
+            <br>
+            <strong>Sharath Matada*</strong>,
+            <a href="https://lukebhan.com/">Luke Bhan*</a>,
+            <a href="https://yyshi.eng.ucsd.edu/">Yuanyuan Shi</a>,
+            <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
+            <br>
+            <em>Under Review</em>
+            <p>
+              <a href="https://arxiv.org/abs/2410.17547">preprint</a>
+            </p>
+            <p>
+              In this work, we introduce a planning neural operator (PNO) for predicting the value function of a motion planning problem. 
+              We recast value function approximation as learning a single operator from the cost function space to the value function space, which is defined by an Eikonal partial differential equation (PDE).  
+            </p>
+          </td>
+        </tr>        
 
 	
 
